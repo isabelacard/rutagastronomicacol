@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para pantallas grandes (computadoras) */
+@media (min-width: 1024px) {
+    section {
+        width: 100%;
+    }
+}
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media (max-width: 1023px) {
+    section {
+        width: 100%;
+    }
+}
